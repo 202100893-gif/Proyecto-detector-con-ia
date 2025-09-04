@@ -218,5 +218,20 @@
           console.log("Modelo cargado...");
       })();
     </script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyAveaOMdSeaG82ukQpd-kvWKkD1-7AfmjY",
+        authDomain: "ringatech-website.firebaseapp.com",
+        projectId: "ringatech-website",
+        storageBucket: "ringatech-website.appspot.com",
+        messagingSenderId: "658482419973",
+        appId: "1:658482419973:web:647e7b53d39684ec7eff6c",
+        measurementId: "G-JMXEL2D511"
+      };
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
